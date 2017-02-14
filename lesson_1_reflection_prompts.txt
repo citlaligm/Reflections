@@ -1,10 +1,10 @@
 How did viewing a diff between two versions of a file help you see the bug that
-was introduced?it
+was introduced?
 It showed only the code that changed between one version to the other which is helpful since in this way I don't have to see all the lines on the file.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
-If there is an error in the new file, I could easily compare the last version and look for the error or if the new implementation is not better that the last one I just can retrive the last version without to implement it again.
+If there is an error in the new file, I could easily compare the last version and look for the error or if the new implementation is not better than the last one I just can retrive the last version without to implement it again.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
@@ -14,12 +14,12 @@ cons: You can forget to do an important commit, or not doing regularly
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Googtle Docs, treat each file separately?
-Because maybe  some files are related to same project so you can specify the same commit mesage
+Because maybe some files are related to same project so you can specify the same commit mesage
 
 
 How can you use the commands git log and git diff to view the history of files?
-git diff will show the differences between 2 versions of the same file, either these are insertions or deletions.
-git log will show the history of all the commits made on a specific file.
+git diff will show the differences between 2 versions of the same file, either there are insertions or deletions.
+git log will show the history of all the commits made on a specific file, will show you the commit message as well
 
 
 How might using version control make you more confident to make changes that
