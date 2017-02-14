@@ -1,5 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
-A hidden directory for git is createad. to be able to make commits
+A hidden directory for git is createad to be able to make commits
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
@@ -11,12 +11,16 @@ You add only the files that have something in common, so that the message in the
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-When I want to experiment with a feature, add a feature that I'm nor sure if it will work so I don't wnant to modify the master.
+When I want to experiment with a feature or implementation. It keeps good quality of the master branch 
 
 How do the diagrams help you visualize the branch structure?
+It helps you to be sure where are you before performing any other action that can be harmful to the proeject.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+It joins all the changes from the master branch and any other branch. 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Automatic merges are very efficients when there are no conflicts between lines. 
